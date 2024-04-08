@@ -1,0 +1,52 @@
+name: lola_components_ui
+description: Chatbot 
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  animated_background: ^2.0.0
+  flutter_svg: ^1.0.3
+  lottie: ^1.4.2
+  flutter_native_splash: ^2.2.9
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.2
+
+flutter:
+
+  uses-material-design: true
+  
+  assets:
+    - assets/images/bg_dark.png
+    - assets/images/toggle_dark.png
+    - assets/images/bg_ligth.png
+    - assets/images/toggle_light.png
+    - assets/images/bg_colors.svg
+    - assets/lottie/animate_audio.json
+    - assets/lottie/bg_card1.json
+    - assets/lottie/bg_splash_primary.json
+    - assets/lottie/audio.json
+    - assets/images/avatar/avatar_mono.png
+    - assets/images/avatar/avatar_oso.png
+    - assets/images/avatar/avatar_zorro.png
+  #  - images/a_dot_ham.jpeg
+ 
+  fonts: 
+    - family: Poppins
+      fonts: 
+        - asset: assets/fonts/PoppinsRegular.ttf
+          weight: 400
+        - asset: assets/fonts/PoppinsMedium.ttf
+          weight: 500
+    - family: OffBit
+      fonts: 
+        - asset: assets/fonts/OffBitDotBold.ttf
+          weight: 700
+
