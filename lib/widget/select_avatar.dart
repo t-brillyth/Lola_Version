@@ -7,7 +7,11 @@ class SelectAvatar extends StatelessWidget {
       body: Center(
         child: Text(
           'Esta es la nueva página',
-          style: TextStyle(color: Colors.red), // 'Color' debe ser 'color'
+          style: TextStyle(
+            color: Colors.red,
+            fontFamily: 'Poppins',
+            fontSize: 16,
+          ), // 'Color' debe ser 'color'
         ),
       ),
     );

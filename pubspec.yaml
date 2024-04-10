@@ -13,11 +13,13 @@ dependencies:
   flutter_svg: ^1.0.3
   lottie: ^1.4.2
   flutter_native_splash: ^2.2.9
+  carousel_slider: ^4.2.1
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^2.0.2
+  build_runner: ^2.3.3
 
 flutter:
 
@@ -29,13 +31,16 @@ flutter:
     - assets/images/bg_ligth.png
     - assets/images/toggle_light.png
     - assets/images/bg_colors.svg
-    - assets/lottie/animate_audio.json
+    - assets/lottie/lola_logo.json
     - assets/lottie/bg_card1.json
-    - assets/lottie/bg_splash_primary.json
+    - assets/lottie/bg_splash.json
     - assets/lottie/audio.json
-    - assets/images/avatar/avatar_mono.png
-    - assets/images/avatar/avatar_oso.png
+    - assets/lottie/zorro_tierno.json
+    - assets/lottie/avatar/avatar_mono.json
+    - assets/lottie/avatar/avatar_oso.json
     - assets/images/avatar/avatar_zorro.png
+    - assets/images/icon_keyCircle.png
+    - assets/images/bg_card_One.jpg
   #  - images/a_dot_ham.jpeg
  
   fonts: 
